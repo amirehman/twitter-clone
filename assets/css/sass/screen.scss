@@ -1,0 +1,220 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+$themecolor: #1DA1F2;
+$lightgray: #E1E8ED;
+$extralightgray: #F5F8FA;
+.twitter-color {
+    color: $themecolor;
+    fill: $themecolor;
+}
+
+.twitter-color-light {
+    color: lighten($themecolor, 25%);
+    fill: lighten($themecolor, 25%);
+}
+
+.twitter-extra-light-gray-bg {
+    background: #F5F8FA;
+}
+
+.twitter-light-gray-bg {
+    background: #E1E8ED;
+}
+
+a {
+    color: $themecolor;
+}
+
+.twitter-bg {
+    background: $themecolor;
+}
+
+.twitter-border {
+    border: 1px solid $themecolor;
+}
+
+.twitter-border-color {
+    border-color: $themecolor!important;
+}
+
+.twitter-border-color-light {
+    border-color: lighten($themecolor, 25%)!important;
+}
+
+.transition-3 {
+    transition: 0.3s;
+}
+
+.light-blue-1 {
+    background-color: rgba(29, 161, 242, 0.1)
+}
+
+.side-navigation-list-item {
+    a {
+        color: rgba(0, 0, 0, 0.9);
+        &:hover {
+            background-color: rgba(29, 161, 242, 0.1)
+        }
+        &:focus {
+            background-color: rgba(29, 161, 242, 0.2)
+        }
+        i.icon {
+            width: 27px;
+            fill: rgb(41, 41, 41);
+        }
+        &.active {
+            span {
+                color: $themecolor;
+            }
+            i.icon {
+                fill: $themecolor;
+            }
+        }
+    }
+}
+
+.twitter-light-blue-on-hover {
+    &:hover {
+        background-color: rgba(29, 161, 242, 0.1)
+    }
+}
+
+.search-input-wrappper {
+    border: 1px solid transparent;
+    svg {
+        fill: rgba(0, 0, 0, 0.5);
+    }
+    input {
+        font-size: 15px;
+        &::placeholder {
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
+.trend-block {
+    background: $extralightgray;
+    .trend-list {
+        li.trend-list-item {
+            transition: 0.3s;
+            border-bottom: 1px solid $lightgray;
+            &:hover {
+                background: darken($extralightgray, 2%);
+            }
+            &:last-child {
+                border: none;
+            }
+        }
+    }
+}
+
+li.who-to-follow-list-item {
+    transition: 0.3s;
+    border-bottom: 1px solid $lightgray;
+    &:hover {
+        background: darken($extralightgray, 2%);
+    }
+    &:last-child {
+        border: none;
+    }
+}
+
+.footer-item-link {
+    font-size: 13px;
+}
+
+.magic-icon {
+    margin-top: -4px;
+}
+
+.new-tweet-textarea {
+    .textarea {
+        font-size: 20px;
+        textarea {
+            &::placeholder {
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
+
+.hr-bar {
+    hr {
+        background: #E6ECF0;
+    }
+}
+
+.tweet-footer {
+    .ficon {
+        width: 39px;
+        height: 39px;
+        padding: 9px;
+    }
+    .ficon-text {
+        margin-top: 8px;
+        font-size: 16px;
+    }
+    .ficon-wrapper.comment {
+        &:hover {
+            .comment {
+                background: lighten($themecolor, 40%);
+            }
+            span {
+                color: $themecolor;
+            }
+        }
+    }
+    .ficon-wrapper.retweet {
+        &:hover {
+            .retweet {
+                background: rgba(54, 215, 121, 0.15);
+            }
+            span {
+                color: #2ecc71;
+            }
+        }
+    }
+    .ficon-wrapper.like {
+        &:hover {
+            .like {
+                background: rgba(192, 58, 43, 0.1);
+            }
+            span {
+                color: #e74c3c;
+            }
+        }
+    }
+    .ficon-wrapper.send {
+        &:hover {
+            .send {
+                background: rgba(52, 152, 219, 0.1);
+            }
+            span {
+                color: #3498db;
+            }
+        }
+    }
+    svg {
+        fill: rgba(91, 91, 91, 0.76);
+    }
+}
+
+.tweet-username {
+    .tweet-user-info {
+        .inner {
+            width: 320px;
+            box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1), -1px -1px 8px rgba(0, 0, 0, 0.1), ;
+        }
+    }
+    &:hover {
+        .tweet-user-info {
+            display: block;
+        }
+    }
+    .tweet-user-info {
+        top: 100%;
+    }
+}

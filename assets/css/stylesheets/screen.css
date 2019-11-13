@@ -1,0 +1,226 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 9, ../sass/screen.scss */
+.twitter-color {
+  color: #1DA1F2;
+  fill: #1DA1F2;
+}
+
+/* line 14, ../sass/screen.scss */
+.twitter-color-light {
+  color: #96d3f9;
+  fill: #96d3f9;
+}
+
+/* line 19, ../sass/screen.scss */
+.twitter-extra-light-gray-bg {
+  background: #F5F8FA;
+}
+
+/* line 23, ../sass/screen.scss */
+.twitter-light-gray-bg {
+  background: #E1E8ED;
+}
+
+/* line 27, ../sass/screen.scss */
+a {
+  color: #1DA1F2;
+}
+
+/* line 31, ../sass/screen.scss */
+.twitter-bg {
+  background: #1DA1F2;
+}
+
+/* line 35, ../sass/screen.scss */
+.twitter-border {
+  border: 1px solid #1DA1F2;
+}
+
+/* line 39, ../sass/screen.scss */
+.twitter-border-color {
+  border-color: #1DA1F2 !important;
+}
+
+/* line 43, ../sass/screen.scss */
+.twitter-border-color-light {
+  border-color: #96d3f9 !important;
+}
+
+/* line 47, ../sass/screen.scss */
+.transition-3 {
+  transition: 0.3s;
+}
+
+/* line 51, ../sass/screen.scss */
+.light-blue-1 {
+  background-color: rgba(29, 161, 242, 0.1);
+}
+
+/* line 56, ../sass/screen.scss */
+.side-navigation-list-item a {
+  color: rgba(0, 0, 0, 0.9);
+}
+/* line 58, ../sass/screen.scss */
+.side-navigation-list-item a:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+}
+/* line 61, ../sass/screen.scss */
+.side-navigation-list-item a:focus {
+  background-color: rgba(29, 161, 242, 0.2);
+}
+/* line 64, ../sass/screen.scss */
+.side-navigation-list-item a i.icon {
+  width: 27px;
+  fill: #292929;
+}
+/* line 69, ../sass/screen.scss */
+.side-navigation-list-item a.active span {
+  color: #1DA1F2;
+}
+/* line 72, ../sass/screen.scss */
+.side-navigation-list-item a.active i.icon {
+  fill: #1DA1F2;
+}
+
+/* line 80, ../sass/screen.scss */
+.twitter-light-blue-on-hover:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+}
+
+/* line 85, ../sass/screen.scss */
+.search-input-wrappper {
+  border: 1px solid transparent;
+}
+/* line 87, ../sass/screen.scss */
+.search-input-wrappper svg {
+  fill: rgba(0, 0, 0, 0.5);
+}
+/* line 90, ../sass/screen.scss */
+.search-input-wrappper input {
+  font-size: 15px;
+}
+/* line 92, ../sass/screen.scss */
+.search-input-wrappper input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 98, ../sass/screen.scss */
+.trend-block {
+  background: #F5F8FA;
+}
+/* line 101, ../sass/screen.scss */
+.trend-block .trend-list li.trend-list-item {
+  transition: 0.3s;
+  border-bottom: 1px solid #E1E8ED;
+}
+/* line 104, ../sass/screen.scss */
+.trend-block .trend-list li.trend-list-item:hover {
+  background: #eef3f7;
+}
+/* line 107, ../sass/screen.scss */
+.trend-block .trend-list li.trend-list-item:last-child {
+  border: none;
+}
+
+/* line 114, ../sass/screen.scss */
+li.who-to-follow-list-item {
+  transition: 0.3s;
+  border-bottom: 1px solid #E1E8ED;
+}
+/* line 117, ../sass/screen.scss */
+li.who-to-follow-list-item:hover {
+  background: #eef3f7;
+}
+/* line 120, ../sass/screen.scss */
+li.who-to-follow-list-item:last-child {
+  border: none;
+}
+
+/* line 125, ../sass/screen.scss */
+.footer-item-link {
+  font-size: 13px;
+}
+
+/* line 129, ../sass/screen.scss */
+.magic-icon {
+  margin-top: -4px;
+}
+
+/* line 134, ../sass/screen.scss */
+.new-tweet-textarea .textarea {
+  font-size: 20px;
+}
+/* line 137, ../sass/screen.scss */
+.new-tweet-textarea .textarea textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 145, ../sass/screen.scss */
+.hr-bar hr {
+  background: #E6ECF0;
+}
+
+/* line 151, ../sass/screen.scss */
+.tweet-footer .ficon {
+  width: 39px;
+  height: 39px;
+  padding: 9px;
+}
+/* line 156, ../sass/screen.scss */
+.tweet-footer .ficon-text {
+  margin-top: 8px;
+  font-size: 16px;
+}
+/* line 162, ../sass/screen.scss */
+.tweet-footer .ficon-wrapper.comment:hover .comment {
+  background: #def1fd;
+}
+/* line 165, ../sass/screen.scss */
+.tweet-footer .ficon-wrapper.comment:hover span {
+  color: #1DA1F2;
+}
+/* line 172, ../sass/screen.scss */
+.tweet-footer .ficon-wrapper.retweet:hover .retweet {
+  background: rgba(54, 215, 121, 0.15);
+}
+/* line 175, ../sass/screen.scss */
+.tweet-footer .ficon-wrapper.retweet:hover span {
+  color: #2ecc71;
+}
+/* line 182, ../sass/screen.scss */
+.tweet-footer .ficon-wrapper.like:hover .like {
+  background: rgba(192, 58, 43, 0.1);
+}
+/* line 185, ../sass/screen.scss */
+.tweet-footer .ficon-wrapper.like:hover span {
+  color: #e74c3c;
+}
+/* line 192, ../sass/screen.scss */
+.tweet-footer .ficon-wrapper.send:hover .send {
+  background: rgba(52, 152, 219, 0.1);
+}
+/* line 195, ../sass/screen.scss */
+.tweet-footer .ficon-wrapper.send:hover span {
+  color: #3498db;
+}
+/* line 200, ../sass/screen.scss */
+.tweet-footer svg {
+  fill: rgba(91, 91, 91, 0.76);
+}
+
+/* line 207, ../sass/screen.scss */
+.tweet-username .tweet-user-info .inner {
+  width: 320px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1), -1px -1px 8px rgba(0, 0, 0, 0.1);
+}
+/* line 213, ../sass/screen.scss */
+.tweet-username:hover .tweet-user-info {
+  display: block;
+}
+/* line 217, ../sass/screen.scss */
+.tweet-username .tweet-user-info {
+  top: 100%;
+}
